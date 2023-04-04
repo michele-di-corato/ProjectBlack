@@ -31,9 +31,9 @@ h1 {
 }
 header {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 1)
     ),
     url(./media/moon.jpg);
   background-position: center;
@@ -47,4 +47,14 @@ header {
 }
 #title {
   font-size: 80px;
+}
+.c-down {
+  border-bottom: 4px solid var(--acc);
+}
+.number {
+  font-size: 60px;
+  font-family: "Orbitron", sans-serif;
+}
+main {
+  padding-top: 200px;
 }

@@ -1,9 +1,32 @@
 :root {
-  --main: #2b9df4;
+  --acc: #2b9df4;
 }
 * {
   font-family: "Jura", sans-serif;
 }
 h1 {
   font-family: "Orbitron", sans-serif;
+}
+.navbar {
+  background-color: black;
+  border-bottom: 4px solid white;
+  height: 10vh;
+}
+.logo {
+  color: white;
+  font-size: 30px;
+}
+.link {
+  text-decoration: none;
+  color: lightslategray;
+  font-size: 18px;
+}
+.sm-logo {
+  color: white;
+  font-size: 25px;
+}
+.sm-link {
+  text-decoration: none;
+  color: lightslategray;
+  font-size: 15px;
 }

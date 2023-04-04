@@ -3,30 +3,48 @@
 }
 * {
   font-family: "Jura", sans-serif;
+  color: white;
 }
 h1 {
   font-family: "Orbitron", sans-serif;
 }
 .navbar {
   background-color: black;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid gray;
   height: 10vh;
 }
 .logo {
-  color: white;
   font-size: 30px;
 }
 .link {
   text-decoration: none;
-  color: lightslategray;
+  color: gray;
   font-size: 18px;
 }
 .sm-logo {
-  color: white;
   font-size: 25px;
 }
 .sm-link {
   text-decoration: none;
-  color: lightslategray;
+  color: gray;
   font-size: 15px;
+}
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(./media/moon.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.fa-chevron-down {
+  color: var(--acc);
+  font-size: 50px;
+  margin-top: 33vh;
+}
+#title {
+  font-size: 80px;
 }

@@ -58,3 +58,34 @@ header {
 main {
   padding-top: 200px;
 }
+#moon {
+  background-image: url(./media/moon2.jpg);
+  background-size: cover;
+  background-position: 55%;
+  height: 80vh;
+}
+.moon-p {
+  font-size: 25px;
+}
+#moon-t {
+  color: var(--acc);
+}
+.c-icon {
+  color: var(--acc);
+}
+.sun-col {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+@media screen and (max-width: 768px) {
+  .sun-col {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+.line {
+  border: 1px solid var(--acc);
+}
+.card-p {
+  font-size: 18px;
+}

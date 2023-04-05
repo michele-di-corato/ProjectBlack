@@ -89,3 +89,19 @@ main {
 .card-p {
   font-size: 18px;
 }
+.m-titles {
+  color: var(--acc);
+}
+.m-p {
+  font-size: 21px;
+}
+.row-height-bg {
+  background-image: url(./media/missile-2027068_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+}
+.row-height {
+  min-height: 100vh;
+}

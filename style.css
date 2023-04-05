@@ -94,6 +94,7 @@ main {
 }
 .m-p {
   font-size: 21px;
+  text-align: justify;
 }
 .row-height-bg {
   background-image: url(./media/missile-2027068_1280.png);
@@ -104,4 +105,19 @@ main {
 }
 .row-height {
   min-height: 100vh;
+}
+.c-titles {
+  color: var(--acc);
+}
+.d-cards {
+  font-size: 20px;
+  text-align: justify;
+  color: gray;
+}
+button {
+  align-self: end;
+  background: none;
+  width: 135px;
+  height: 45px;
+  border: 4px dashed var(--acc);
 }

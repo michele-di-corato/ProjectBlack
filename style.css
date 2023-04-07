@@ -117,33 +117,28 @@ main {
 button {
   position: relative;
   align-self: end;
-  background: none;
+  --b: 5px; /* thickness of the border */
+  --w: 12px; /* width of border */
+
+  border: var(--b) solid #0000; /* space for the border */
+  --_g: #0000 90deg, var(--acc) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background: conic-gradient(
+        from 90deg at top var(--b) left var(--b),
+        var(--_g)
+      )
+      0 0 / var(--_p),
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 /
+      var(--_p),
+    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% /
+      var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g))
+      100% 100% / var(--_p);
+
   width: 150px;
   height: 50px;
-  border: #2b9df4 solid 2px;
 }
-button:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-top: 5px solid var(--acc);
-  border-bottom: 5px solid var(--acc);
-  height: calc(100% - 0px);
-  width: calc(100% - 135px);
-  top: 0px;
-  left: 0px;
-}
-button:after {
-  display: block;
-  position: absolute;
-  content: "";
-  border-left: 5px solid var(--acc);
-  border-right: 5px solid var(--acc);
-  height: calc(100% - 35px);
-  width: calc(100% - 0px);
-  top: 0px;
-  left: 0px;
-}
+
 footer {
   background: linear-gradient(
       rgba(0, 0, 0, 1),

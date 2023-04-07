@@ -164,11 +164,14 @@ footer {
   font-size: 20px;
   text-align: justify;
 }
-.border {
+.b-foot {
   bottom: 0;
-  left: 35%;
-  width: 30vw;
-  height: 10px;
-  border: none;
+  left: 25%;
+  width: 50vw;
+  height: 5px;
+  background: linear-gradient(to right, black, var(--acc), black);
+}
+.last {
   background-color: black;
+  height: 15vh;
 }
